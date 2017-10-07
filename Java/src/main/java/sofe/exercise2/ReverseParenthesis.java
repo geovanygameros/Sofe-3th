@@ -22,11 +22,7 @@ public class ReverseParenthesis {
                 break;
             }
         }
-
-
-
-        System.out.println(abierto);
-        System.out.println(cerrado);
+        
 
         String newText = text.substring(abierto+1,cerrado);
         StringBuilder reversado = new StringBuilder(newText);
